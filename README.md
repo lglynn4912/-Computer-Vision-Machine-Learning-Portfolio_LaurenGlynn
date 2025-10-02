@@ -7,8 +7,8 @@ It spans **deep learning, classical CV, and applied pipelines**, demonstrating b
 
 ## Featured Projects
 
-### Fly Detection & Tracking (Capstone Project)
-End-to-end ML pipeline for analyzing insect activity in ecological lab videos.  
+### Fly Detection & Tracking
+End-to-end ML pipeline for analyzing insect activity in captured video
 - **Training**: feature extraction + Random Forest classifier, tracked with MLflow.  
 - **Detection**: GPU-accelerated motion validation to detect moving insects only.  
 - **Tracking**: aggregated detections into events (activity counts, durations, peaks).
@@ -41,9 +41,6 @@ Core CV algorithms implemented from scratch to strengthen fundamentals.
 
 ---
 
-
-
----
 
 ## Additional Projects & Explorations
 - **Insect Image-to-3D Reconstruction**  
