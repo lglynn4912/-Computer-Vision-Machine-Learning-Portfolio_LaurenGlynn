@@ -22,7 +22,7 @@ Built and trained a **LeNet-style CNN** from scratch on the MiniPlaces dataset (
 - Designed CNN architecture with convolution, pooling, and FC layers.  
 - Implemented training loop, checkpointing, and evaluation in PyTorch.  
 - Applied data augmentation and optimization strategies.  
-📂 [Project Folder](./miniplaces_cnn)  
+📂 [deep learning image classifier from scratch in PyTorch]  
 
 ---
 
@@ -33,9 +33,9 @@ Core CV algorithms implemented from scratch to strengthen fundamentals.
 - **Photometric Stereo**: surface normal & albedo recovery under varying lighting  
   📂 [photometric_stereo](./photometric_stereo)  
 - **Optical Flow**: motion estimation visualized with arrow maps  
-  📂 [optical_flow](./optical_flow)  
+  📂 [optical_flow+object_tracking](./optical_flow)  
 - **Object Tracking**: histogram-based target tracking across video frames  
-  📂 [object_tracking_hist](./object_tracking_hist)  
+  📂 [optical_flow+object_tracking](./object_tracking_hist)  
 
 ---
 
@@ -43,7 +43,7 @@ Core CV algorithms implemented from scratch to strengthen fundamentals.
 Experimented with YOLO detection for insect images.  
 - Compared detection accuracy with classical CV methods.  
 - Studied tradeoffs in speed vs performance.  
-📂 [Project Folder](./yolo_implementation)  
+📂 [Motion-Based Detection (YOLO + Classical CV)])  
 
 ---
 
