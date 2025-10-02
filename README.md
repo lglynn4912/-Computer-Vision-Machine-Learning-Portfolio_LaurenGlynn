@@ -11,7 +11,8 @@ It spans **deep learning, classical CV, and applied pipelines**, demonstrating b
 End-to-end ML pipeline for analyzing insect activity in ecological lab videos.  
 - **Training**: feature extraction + Random Forest classifier, tracked with MLflow.  
 - **Detection**: GPU-accelerated motion validation to detect moving insects only.  
-- **Tracking**: aggregated detections into events (activity counts, durations, peaks).  
+- **Tracking**: aggregated detections into events (activity counts, durations, peaks).
+  
 
 ### YOLO-Style Detection
 Experimented with YOLO detection for insect images.  
@@ -19,7 +20,6 @@ Experimented with YOLO detection for insect images.
 - Studied tradeoffs in speed vs performance.  
 
 📂 [mtion_based_detection_YOLO_+_classicCV](./mtion_based_detection_YOLO_+_classicCV)
----
 
 ### Scene Classification with CNNs (MiniPlaces)
 Built and trained a **LeNet-style CNN** from scratch on the MiniPlaces dataset (100 scene classes).  
