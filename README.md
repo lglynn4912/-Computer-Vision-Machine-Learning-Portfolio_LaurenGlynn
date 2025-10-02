@@ -12,13 +12,13 @@ End-to-end ML pipeline for analyzing insect activity in ecological lab videos.
 - **Training**: feature extraction + Random Forest classifier, tracked with MLflow.  
 - **Detection**: GPU-accelerated motion validation to detect moving insects only.  
 - **Tracking**: aggregated detections into events (activity counts, durations, peaks).  
-📂 [Motion-Based Detection (YOLO + Classical CV)](./final_flycounter.py)
+📂 [Motion-Based Detection (YOLO + Classical CV)](./Motion-Based Detection (YOLO + Classical CV)
 
 ### YOLO-Style Detection
 Experimented with YOLO detection for insect images.  
 - Compared detection accuracy with classical CV methods.  
 - Studied tradeoffs in speed vs performance.  
-📂  [Motion-Based Detection (YOLO + Classical CV)](./finalflydetector.py) 
+📂  [Motion-Based Detection (YOLO + Classical CV)](./Motion-Based Detection (YOLO + Classical CV) 
 
 ---
 
@@ -38,9 +38,9 @@ Core CV algorithms implemented from scratch to strengthen fundamentals.
 - **Photometric Stereo**: surface normal & albedo recovery under varying lighting  
   📂 [photometric_stereo](./photometric_stereo)  
 - **Optical Flow**: motion estimation visualized with arrow maps  
-  📂 [optical_flow+object_tracking](./hw7_challenge1.py)  
+  📂 [optical_flow+object_tracking](./optical_flow+object_tracking)  
 - **Object Tracking**: histogram-based target tracking across video frames  
-  📂 [optical_flow+object_tracking](./hw7_challenge2.py)  
+  📂 [optical_flow+object_tracking](./optical_flow+object_tracking)  
 
 ---
 
