@@ -1,7 +1,7 @@
 # Computer Vision & Machine Learning Portfolio — Lauren Glynn
 
 Welcome! This repository showcases my applied work in **machine learning and computer vision**.  
-It spans **deep learning, classical CV, and applied pipelines**, demonstrating both breadth of fundamentals and depth in solving real-world problems.
+It spans **deep learning, classical CV, and applied pipelines**, demonstrating both breadth of fundamentals and depth in solving real-world ecology and entomology problems.
 
 ---
 
