@@ -12,13 +12,13 @@ End-to-end ML pipeline for analyzing insect activity in ecological lab videos.
 - **Training**: feature extraction + Random Forest classifier, tracked with MLflow.  
 - **Detection**: GPU-accelerated motion validation to detect moving insects only.  
 - **Tracking**: aggregated detections into events (activity counts, durations, peaks).  
-📂 [Motion-Based Detection (YOLO + Classical CV)](./Motion-Based Detection (YOLO + Classical CV))
+📂 [Motion-Based Detection (YOLO + Classical CV)]
 
 ### YOLO-Style Detection
 Experimented with YOLO detection for insect images.  
 - Compared detection accuracy with classical CV methods.  
 - Studied tradeoffs in speed vs performance.  
-📂  [Motion-Based Detection (YOLO + Classical CV)](./Motion-Based Detection (YOLO + Classical CV)) 
+📂  [Motion-Based Detection (YOLO + Classical CV)]
 
 ---
 
@@ -27,9 +27,7 @@ Built and trained a **LeNet-style CNN** from scratch on the MiniPlaces dataset (
 - Designed CNN architecture with convolution, pooling, and FC layers.  
 - Implemented training loop, checkpointing, and evaluation in PyTorch.  
 - Applied data augmentation and optimization strategies.  
-📂 [deep learning image classifier from scratch in PyTorch](./deep learning image classifier from scratch in PyTorch)  
-
----
+📂 [deep learning image classifier from scratch in PyTorch]
 
 ### Classical Computer Vision Implementations
 Core CV algorithms implemented from scratch to strengthen fundamentals.  
