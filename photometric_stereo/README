@@ -1,0 +1,28 @@
+1A:
+
+Results:
+
+1B:
+function/formula:
+
+def compute_normal(center: np.ndarray, radius: float, point: np.ndarray) -> np.ndarray:
+    # get x,y coordinates relative to center
+    x_prime = point[0] - center[0]
+    y_prime = point[1] - center[1]
+
+    # use normalized vector - for center to point coordinates
+    norm = np.sqrt(x_prime ** 2 + y_prime ** 2)
+    vector_x = x_prime / norm
+    vector_y = y_prime / norm
+
+    # get normal vector (using the radius)
+    normalized_x = radius * vector_x
+    normalized_y = radius * vector_y
+
+    # get the z coordinate of the normalized vector (using the radius)
+    normalized_z = np.sqrt(radius ** 2 - normalized_x ** 2 - normalized_y ** 2)
+
+    return np.array([normalized_x, normalized_y, normalized_z])
+
+
+why is it safe to assume:
